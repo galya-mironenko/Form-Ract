@@ -10,10 +10,6 @@ const { Sider } = Layout;
 
 const App = () => {
 
-  const styleContent = {
-    margin: "24px 16px 0"
-  };
-
   return ( 
     <div> 
       <Layout>
@@ -29,7 +25,7 @@ const App = () => {
         </Sider>
         <Layout>
           <Header/>
-          <Content style={styleContent} />
+          <Content className="styleContent"/>
         </Layout>
       </Layout>
   </div>

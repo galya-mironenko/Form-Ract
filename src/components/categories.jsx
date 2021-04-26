@@ -8,6 +8,7 @@ const plainOptions = ['All', 'Products', 'New Product'];
 const defaultCheckedList = ['All', 'Products'];
 
 const Categories = () => {
+  
   const [checkedList, setCheckedList] = React.useState(defaultCheckedList);
   const [indeterminate, setIndeterminate] = React.useState(true);
   const [checkAll, setCheckAll] = React.useState(false);
