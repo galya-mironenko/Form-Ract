@@ -23,7 +23,7 @@ const Menus = () => {
             <ChromeOutlined />
           </a>
         </div>
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={["4"]}>
+        <Menu mode="inline" defaultSelectedKeys={["4"]} theme="light">
           <Menu.Item key="1" icon={<HomeFilled />}>
           </Menu.Item>
           <Menu.Item key="2" icon={<FileDoneOutlined />} />

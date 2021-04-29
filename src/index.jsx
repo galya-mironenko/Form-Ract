@@ -9,11 +9,10 @@ import Menus from "./components/menu";
 const { Sider } = Layout;
 
 const App = () => {
-
   return ( 
     <div> 
       <Layout>
-        <Sider breakpoint="lg"
+        <Sider breakpoint="md"
             collapsedWidth="0"
             onBreakpoint={(broken) => {
               console.log(broken);

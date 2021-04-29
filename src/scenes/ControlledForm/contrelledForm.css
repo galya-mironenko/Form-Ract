@@ -1,0 +1,327 @@
+.section-bottom{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px #00000126;
+  }
+  .form-row .label-tag{
+    background: #fff;
+    border: none;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    padding: 0 0 9px;
+  }
+  .tag-form .ant-select{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-row .ant-picker,
+  .form-row .ant-input,
+  .form-row .ant-select-selector{
+    width: 100% !important;
+    height: 32px;
+    color: #5093E1;
+    font: 500 15px 'Roboto', sans-serif;
+    line-height: 18px;
+  }
+  .form-row #date-picker{
+    color: #5093E1;
+    font: 500 15px 'Roboto', sans-serif;
+    line-height: 18px;
+  }
+  .form-row .ant-select-multiple .ant-select-selection-item {
+    background: #5093E1;
+    border: 1px solid #5093E1;
+    color: #fff;
+    border-radius: 8px;
+  }
+  .form-row .ant-select-multiple .ant-select-selection-item-remove{
+    color: #fff;
+  }
+  
+  
+  /* form */
+
+.form-style{
+    display: flex;
+    width: 100%;
+  }
+  .form-style form{
+    width: 100%;
+    padding: 26px 24px;
+    padding-bottom: 47px;
+  }
+  .form-style form .form-row{
+    width: 70%;
+  }
+  .form-row{
+    display:flex;
+    flex-direction: row;
+    width: 25%;
+  }
+  .form-style form .ant-form-item{
+    width: 25%;
+    padding-right: 20px;
+  }
+  .form-style form .form-textarea .ant-form-item {
+    width: 100%;
+  }
+  .form-row .ant-form-text,
+  .form-row .ant-select-selection-item{
+    color: #5093E1;
+    font: 500 15px 'Roboto', sans-serif;
+    line-height: 18px;
+  }
+  .form-row .ant-form-item-label label,
+  .form-row .tag-form .label-tag{
+    color: #7C869C !important;
+    font: 500 15px 'Roboto', sans-serif;
+    line-height: 18px;
+  }
+  .tag-form{
+    width: 25%;
+    padding-right: 20px;
+  }
+  .form-button .form-button-submit{
+    background-color: #5093E1;
+    max-width: 230px;
+    width: 24%;
+    height: 50px;
+    border: 1px solid #5093E1;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font: 700 18px 'Roboto', sans-serif;
+    line-height: 18px;
+  }
+
+.result{
+    margin-left: 22px;
+    color: #7C869C;
+    font: 700 18px 'Roboto', sans-serif;
+  }
+  element.style {
+    row-gap: 0px;
+  }
+  .form-style form .form-button .ant-form-item {
+    width: 70%;
+    margin-bottom: 0px;
+  }
+
+  .form-style .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none ;
+  }
+  .form-style .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    margin-right: 4px;
+    color: #5093E1;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    line-height: 1;
+    content: '*';
+  }
+  .form-style .ant-form-item-children-icon{
+    display: none;
+  }
+
+  /* Textarea */
+
+.form-textarea{
+    width: 50%;
+  }
+  .form-row-bottom .form-textarea .ant-input{
+    width: 100% !important;
+  }
+
+  @media screen and (max-width: 1280px){
+    .form-style form .form-row {
+      width: 100%;
+    }
+    .ant-picker-panel-container,
+    .ant-picker-panel-container .ant-picker-panel{
+        width: 95%;
+    }
+    .ant-picker-header {
+        width: 90%;
+    }
+    .ant-picker-panel .ant-picker-date-panel .ant-picker-body {
+        padding: 8px 2px;
+    }
+    .ant-picker-panel .ant-picker-date-panel{
+        width: 270px;
+    }
+    .form-filter-item .ant-select.form-item-small-select {
+        right: 0px;
+    }
+    .form-button .form-button-submit {
+        max-width: 200px;
+        width: 23%;
+        height: 48px;
+    }
+    .ant-btn.blue-btn {
+        width: 200px;
+        height: 48px;
+    }
+    .ant-btn.btn, .styleBtn {
+        height: 48px;
+    }
+  }
+
+  @media screen and (max-width: 1160px){
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      overflow: scroll !important;
+    }
+    .form-style form {
+      padding-bottom: 34px;
+    }
+  }
+
+  @media screen and (max-width: 1040px){
+    .form-button .form-button-submit {
+      width: 150px;
+      height: 40px;
+    } 
+  }
+
+  @media screen and (max-width: 991px){ 
+    .form-row #date-picker {
+      font: 500 14px 'Roboto', sans-serif;
+  }
+  .form-row .ant-select-selection-item {
+    font: 500 11px 'Roboto', sans-serif;
+  }
+    .form-button .form-button-submit {
+        font: 700 16px 'Roboto', sans-serif;
+    }
+    .form-row .ant-form-item-label label, .form-row .tag-form .label-tag 
+    .form-row #date-picker,
+    .form-row .ant-select-selection-item,
+    .form-row .ant-input,
+    .form-row .ant-input,
+    .form-row .ant-form-text,
+    .form-row .ant-form-item-label label  {
+        font: 500 14px 'Roboto', sans-serif;
+    }
+  }
+
+  @media screen and (max-width: 860px){
+  .form-item-label > label  {
+        font: 500 14px 'Roboto', sans-serif;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .form-row #date-picker,
+  .form-row .ant-select-selection-item,
+  .form-row .ant-input,
+  .form-row .ant-input,
+  .form-row .ant-form-text,
+  .form-row .ant-form-item-label label,
+  .form-row .tag-form .label-tag{
+      font: 500 13px 'Roboto', sans-serif;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      overflow: scroll !important;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .form-style form .ant-form-item {
+    width: 50%;
+}
+.form-style form .form-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag-form {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 680px){
+ .form-button-submit {
+      width: 130px;
+      height: 34px;
+  }
+  .form-button .form-button-submit, 
+  .styleBtn span {
+      font: 700 14px 'Roboto', sans-serif;
+  }
+  .result {
+      font: 700 15px 'Roboto', sans-serif;
+  }
+  .form-style form .form-button .ant-form-item {
+      width: 100%;
+  }
+  .form-row .ant-form-item-label label, .form-row .tag-form .label-tag {
+    font: 500 13px 'Roboto', sans-serif;
+}
+.form-row #date-picker, .form-row .ant-input, .form-row .ant-select-selector,
+.form-row .ant-form-text {
+    font: 500 12px 'Roboto', sans-serif;
+}
+.form-style form {
+  padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 580px){
+  .form-row-bottom .anticon.site-form-item-icon {
+    top: 29px;
+ }
+ .form-row .label-tag {
+     padding: 0 0 3px 0px;
+ }
+}
+
+@media screen and (max-width: 480px){
+  .form-button .form-button-submit {
+    width: 140px;
+  }
+  .form-button .ant-form-item-control-input-content .result {
+    margin-left: 13px;
+  }
+}
+
+@media screen and (max-width: 422px){
+.form-style form .form-row {
+  flex-direction: column;
+}
+.form-style form .ant-form-item,
+.tag-form ,
+.form-textarea{
+  width: 100%;
+}
+.form-style form .ant-form-item,
+.tag-form {
+  padding-right: 0px;
+}
+.form-button .ant-form-item-control-input-content {
+  align-items: center;
+  display: flex;
+}
+.ant-form-item-control-input-content{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.ant-form-item-control-input-content button{
+  margin-top: 10px;
+}
+.form-style form .form-row:first-of-type{
+  margin-bottom: 20px;
+}
+.result {
+  margin-left: 0px;
+}
+.ant-form-item-control-input-content{
+  align-items: flex-start;
+}
+.form-textarea .ant-form-item-control-input-content {
+  margin-bottom: 0px;
+  height: 50px;
+}    
+.form-result{
+  margin-top: 20px;
+  }
+}

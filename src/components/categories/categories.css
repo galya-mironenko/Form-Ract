@@ -1,0 +1,139 @@
+.categoriesChecbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CDDAEA;
+    flex: 0.8;
+    padding: 14px 24px;
+    box-shadow: 0px 2px 8px 0px #00000126;
+    border-radius: 8px;
+    color: #4E5361;
+    font: 700 18px 'Roboto', sans-serif;
+  }
+  .ant-checkbox-group span,
+  .ant-checkbox-wrapper span {
+    color: #7C869C;
+    font: 400 15px 'Roboto', sans-serif;
+    line-height: 18px;
+  }
+  .categoriesItem label{
+    padding-left: 24px;
+  }
+  .categoriesAll{
+    margin-right: 9%;
+  }
+  .categories-text{
+    margin-right: 20px;
+  }
+  .categoriesChecbox{
+    width: 74%;
+    position: absolute;
+    right: 0px;
+  }
+
+@media screen and (max-width: 1280px){
+    .categoriesChecbox { 
+        padding: 12px 24px;
+    }
+    .categoriesItem label {
+        padding-left: 12px;
+    }
+    .categoriesAll {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    .categoriesItem label {
+        padding-left: 10px;
+    }
+    .categoriesChecbox {
+        font: 700 16px 'Roboto', sans-serif;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .categoriesChecbox {
+        font: 700 14px 'Roboto', sans-serif;
+    }
+    .ant-checkbox-group span, .ant-checkbox-wrapper span {
+        font: 400 12px 'Roboto', sans-serif;
+    }
+    .ant-checkbox-group-item .ant-checkbox + span {
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+    .categoriesAll {
+        margin-right: 0px;
+    }
+    .categories-text {
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .categoriesChecbox{
+        width: 100%;
+    }
+    .categoriesChecbox{
+        margin-bottom: 70px;
+    }
+    .ant-checkbox-group-item {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .ant-checkbox-group-item {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .ant-checkbox-group-item {
+        margin-right: 5px;
+    }
+    .categoriesChecbox {
+        font: 700 13px 'Roboto', sans-serif;
+        margin-bottom: 72px;
+        bottom: -13px;
+    }
+    .categoriesItem,
+    .categoriesItem span{
+        padding-right: 5px;
+    }
+    .ant-checkbox-group-item .ant-checkbox + span {
+        padding-right: 4px;
+    }
+    .categoriesItem label {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 485px){ 
+    .categoriesChecbox {
+        margin-bottom: 67px;
+    }
+}
+
+@media screen and (max-width: 422px){
+    .categoriesChecbox{
+        margin-bottom: 112px;
+        display: flex;
+        flex-direction: column;
+        bottom: -38px;
+    }
+    .categoriesChecbox .ant-checkbox-group{
+        display: flex;
+        margin-top: 5px;
+    }
+    .categoriesItem {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 380px){ 
+    .categoriesChecbox {
+        margin-bottom: 116px;
+        bottom: -62px;
+    }
+}

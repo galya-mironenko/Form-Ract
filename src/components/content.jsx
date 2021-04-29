@@ -1,14 +1,14 @@
 import React from "react";
-import ContentTopBlock from "./content-top-block";
-import ContentBottomBlock from "./content-bottom-block";
-import Exchange from "./exchance";
+import ContentTopBlock from "./contentTopBlock";
+import ContentBottomBlock from "./contentBottomBlock";
+import ExchangeRate from "./exchangeRate/ExchengeRate";
 
 const Content = () => {
     return (
         <div className="site-layout-background">
           <ContentTopBlock/>
           <ContentBottomBlock/>
-          <Exchange/>
+          <ExchangeRate/>
         </div>
     );
 };

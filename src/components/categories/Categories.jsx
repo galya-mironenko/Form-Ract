@@ -1,13 +1,15 @@
 import React from "react";
+import "./categories.css";
 import "antd/dist/antd.css";
 import { Checkbox } from "antd";
 
+
 const CheckboxGroup = Checkbox.Group;
+
+const Categories = () => {
 
 const plainOptions = ['All', 'Products', 'New Product'];
 const defaultCheckedList = ['All', 'Products'];
-
-const Categories = () => {
   
   const [checkedList, setCheckedList] = React.useState(defaultCheckedList);
   const [indeterminate, setIndeterminate] = React.useState(true);

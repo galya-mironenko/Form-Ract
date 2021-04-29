@@ -1,4 +1,5 @@
 import React from "react";
+import "./appHeader.css";
 
 const AppHeader = (props) => {
     const { title } = props;

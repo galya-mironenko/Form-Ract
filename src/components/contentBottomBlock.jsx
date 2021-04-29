@@ -1,6 +1,6 @@
 import React from "react";
-import AppHeader from "./app-header";
-import FormLayout from "./form";
+import AppHeader from "./appHeader/AppHeader";
+import ControlledForm from "../scenes/ControlledForm/ControlledForm ";
 
 const ContentBottomBlock = () => {
     return ( 
@@ -8,7 +8,7 @@ const ContentBottomBlock = () => {
             <AppHeader title="FIll out the details for this Purchase Order" />
             <section className="section-bottom">
                 <div className="section-bottom-content">
-                    <FormLayout />
+                    <ControlledForm />
                 </div>
             </section>
         </>

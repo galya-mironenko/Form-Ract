@@ -5,8 +5,8 @@ import {Form, Input} from 'antd';
 const TextAreas = ({placehold}) => {
     return (
         <div className="form-textarea">
-            <Form.Item name={['user', 'introduction']} label="Introduction">
-                <Input.TextArea placeholder={placehold}/>
+            <Form.Item label="Note">
+                <Input.TextArea placeholder={placehold} rows="5" />
             </Form.Item>
         </div>
     );
